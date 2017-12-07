@@ -1,0 +1,519 @@
+.first_page{
+	display:inline;
+	background-color: #b2b4b7;
+}
+#intro{
+	padding-top:50px;
+	margin-top:45px;
+}
+
+#intro p{
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size:25px;	
+}
+.jumbotron h1{
+	font-family:'Pathway Gothic One', sans-serif;
+}
+
+
+#code-skills{ 
+	margin-left: 40px;
+	margin-right:40x;
+	margin-top:40px;
+	text-align:center;
+ }
+
+#code-skills h2{ 
+	font-size:60px;
+	font-family: 'Open Sans Condensed', sans-serif;
+ }
+
+#code-skills ul{
+	font-size:35px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	text-align:center;
+	padding-left:2px;
+	padding-top:8px;
+	padding-bottom:15px;
+
+}
+
+#design-skills{ 
+	margin-left: 40px;
+	margin-right:40x;
+	margin-top:40px;
+ }
+
+#design-skills h2{ 
+	font-size:50px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	text-align:center;
+
+}
+
+#design-skills ul{
+	font-size:35px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	text-align:center;
+	padding-left:2px;
+	padding-top:8px;
+	padding-bottom:15px;
+}
+#intro h1{
+	font-family: 'Pathway Gothic One', sans-serif;	
+	font-size: 50px;
+	padding-right:30px;
+	padding-left:30px;
+	margin-left:20px;
+	/*border-style: solid;*/
+}
+.my_header h{
+	font-family: 'Pathway Gothic One', sans-serif;
+	font-size: 50px;	
+	padding-left:50px;
+	padding-top:10px;
+	color:black;
+	display:inline;
+}
+
+.my_header span{
+	float:right;
+	margin: 30px;
+	padding:0px;
+	border-color: black;
+}
+
+.image{ 
+	margin-top:70px;
+	margin-left: 30px;
+	padding-top: 20px;
+	/*padding-left: 20px;*/
+}
+
+.about{
+	font-family: 'Open Sans Condensed', sans-serif;
+	padding-right:60px;
+	padding-left:30px;
+	margin-left:50px
+	margin-right:50px;
+	margin-top:10px;
+	font-size: 30px;
+	color:black;
+}
+
+
+ .about h2{
+ 	margin-top:10px;
+ 	padding-top:160px;
+ 	padding-left:0px;
+ 	font-size: 65px;
+ 	font-family: 'Pathway Gothic One', sans-serif;
+ 	text-align: center;
+ }
+
+ .about p{
+ 	font-size: 40px;
+ 	text-align: center;
+ }
+
+#nextpic{
+	padding-top:110px; 
+}
+
+
+.navbar li{
+	list-style-type: none;
+	display: inline;
+	margin-left: 35px;
+	margin-top:10px;
+	font-family: 'Pathway Gothic One', sans-serif;
+	font-size: 20px;
+	color:black;
+ }
+
+.navbar ul{
+	margin-top:10px;
+}
+
+.tabs{ 
+	font-color: black;
+ }
+
+ .navbar li a{
+ 	color:black;
+ }
+
+ .jumbotron{
+ 	margin-top:75px;
+ }
+
+.work{
+ 	height:200px;
+ 	margin-top:50px;
+ 	margin-left:50px;
+ 	margin-bottom:125px;
+
+ }
+
+ .work a{ 
+ 	background-color: #e5e5e8;
+	text-align:center;
+	color: black;
+    height: 200px;
+    width: 200px;
+    line-height: 200px;
+    display:inline-block;
+ 	padding-left: 100px;
+ 	padding-right:100px;
+ 	padding-bottom:40px;
+ 	padding-top:45px;
+ 	margin-left: 50px;
+ 	margin-right: 30px;
+ 	margin-bottom:30px;
+ 	margin-top:20px;
+ 	display: inline;
+ 	font-size: 30px;
+ 	font-family: 'Pathway Gothic One', sans-serif;
+ 	text-decoration:none;
+  }
+
+.work a:hover{
+	color: black;
+	text-decoration:none;
+}
+
+.work h2{
+	font-family: 'Pathway Gothic One', sans-serif;
+	font-size:75px;
+	/*border-style: solid;*/
+}
+
+.work_links{
+	display:inline;
+
+}
+.work_links a{
+	margin-right:120px;
+	margin-bottom:100px;
+}
+
+.work_links a:hover{
+	color:white;
+	text-decoration:none;
+}
+ .footer p{
+ 	font-family:'Pathway Gothic One', sans-serif;
+ 	font-size:80px;
+ 	margin-top: 80px;
+ 	text-align: center;
+ /*	margin-left:50px;
+ 	padding-left:50px;*/
+ }
+
+.footer .jumbotron{
+	background-color:white;
+}
+
+.fixed-nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 50px;
+  /*background-color: #00a087;*/
+}
+
+.grid{
+	display:grid;
+}
+.fixed-nav-bar a{ 
+	font-family: 'Pathway Gothic One', sans-serif;
+	color: black;
+	font-size: 30px;
+
+ }
+	.fixed-nav-bar li, .fixed-nav-bar a { 
+		height: 50px;
+		line-height: 50px;
+	}
+	.menu {
+	  width: 100%;
+	  max-width: 2000x;
+	  margin: 0 auto;
+	  background-color:transparent;
+	  display:inline-block;
+	  /*padding-left: 30%;*/
+	}
+	.menu a, .menu a:visited {
+	  color: black;
+	}
+	.menu a:hover, .menu a:target {
+	  color: black;
+	  text-decoration:none;
+	}
+	.menu-items {
+	  display: inline-block;
+	  /*margin-left: 50px;*/
+	  padding-left:50%;
+	}
+	.sitename {
+	  display: inline-block;
+	  margin-right: 20px;
+	  margin-left: 10px;
+	  margin-top:1%;
+	}
+	a.sitename, a:visited.sitename {
+	  color: black;
+	  font-size:60px;
+	  padding-left:5%;
+	}
+	.menu-items li {
+	  display: inline-block;
+	  padding-left:2%;
+	  /*padding-left:50%;*/
+	}
+	.menu-items a {
+	  text-decoration: none;
+	  padding-left:38%;
+	  font-size:180%;
+	}
+	.show, .hide {
+	  display: none;
+	  padding-left: 15px;
+	  background-color: transparent;
+	  background-repeat: no-repeat;
+	  background-position: center left;
+	  color: black;
+	}
+	.show {
+	  background-image: url(assets/down-arrow-icon.png);
+	}
+	.hide {
+	  background-image: url(assets/up-arrow-icon.png);
+	}
+
+ /* TABLET MEDIA QUERY */
+@media screen and (min-width:768px){ 
+	a.sitename{
+		font-size:3em;
+	}
+
+	.image{
+		height:22%;
+		width:90%;
+		padding-top:1%;
+		padding-left:5%;
+		padding-right:1%
+	}
+	.navbar li{
+		font-size:23px;
+		margin:30px;
+	}
+	.about h2{ 
+		padding-right:40px;
+		padding-top:10%;
+		/*border-style: solid;*/
+		margin-top:0px;
+		margin-left:100px;
+		font-size:1150%;
+	 }
+	 .about{
+	 	font-size: 50%;
+	 	padding-left:40px;
+	 	padding-right:40px;
+	 }
+
+	 .about p{
+	 	font-size:600%;
+	 	padding-top:5%;
+	 }
+	 .work{
+	 	margin-top:0%;
+	 	height:20%;
+	 	/*display:block;*/
+	 }
+	 .work a{
+	 	display:inline;
+	 	margin-left: 2%;
+	 	margin-right:0%;
+	 	padding-left:35%;
+	 	padding-right:30%;
+	 	text-align:center;
+	 	font-size:175%;
+	 }
+
+	 .work_links{
+	 	padding-right:30%
+	 }
+
+	 .work a{
+	 	padding-left:40%;
+	 }
+	.work h2{
+		font-size:700%;
+	}
+	 .footer{
+	 	margin-top:25%
+	 }
+	 .footer p{
+	 	font-size:4%
+	 	margin-left:35%
+	 	margin-top:500%;
+	 	padding-top:40%;
+	 }
+	 .footer a{ 
+	 margin-top:3%;
+	 }
+
+ }
+/*Mobile media query*/
+@media screen and (max-width:1024px){
+	.my_header h{
+		font-size:650%;
+	}
+	.sitename {
+		margin-top:7%;
+		margin-right:5%;
+	}
+
+	.sitename a{
+		margin-right:5%;
+	}
+	.menu-items {
+		margin-top:-55%;
+		margin-left:20%;
+	}
+	.menu-times li{
+		margin-left:25%;
+	}
+	.image{
+		width:75%
+		margin-left:90%;
+		padding-left:0%;
+	}
+
+	.image img{
+		margin-top:20%;
+	}
+
+	#intro p{
+		margin-top:25%;
+	}
+	.about h2{
+		margin-left:0%;
+		margin-right:0%;
+		font-size:575%;
+
+	}
+	.about{
+		margin-left:5%;
+		margin-top:3%;
+		font-size:150%;
+	}
+	.about p{ 
+		font-size:350%;	
+	}
+
+	.work{
+	 	margin-top:50%;
+	 	height:20%;
+	 	margin-left:20%;
+	 }
+
+	 .work h2{
+	 	margin-right:25%;
+	 	font-size: 700%;
+	 }
+
+	 .work a{
+	 	display:inline;
+		padding-top:10%;
+		padding-bottom:10%;
+	 	margin-left: 0%;
+	 	margin-right:0%;
+	 	padding-left:20%;
+	 	padding-right:30%;
+	 	text-align:center;
+	 	font-size:25px;
+	 }
+	
+	 .footer p{
+	 	margin-left:5%;
+	 	margin-top:65%;
+	 	font-size:800%;
+	 }
+/*Mobile small screen*/
+@media screen and (max-width:375px){
+	.my_header{
+		height:100%
+	}
+	.my_header h{
+		margin-left:10%;
+		margin-right:0%;
+		font-size:200%;
+
+	}
+	.navbar li a{
+		margin-left:35%
+	}
+	.image{
+		margin-top:5%;
+		margin-left:2%;
+		margin-right:150%;
+		height:160%;
+		width:150;
+	}
+	.about h2{
+		font-size:175%;
+		margin-left:0%;
+		margin-right:0%;
+		width:100%;
+	}
+
+	.third_page{
+		margin-top:100%;
+	}
+	.work h2{
+		margin-left:0%;
+		margin-right:20%;
+		font-size:500%;
+	}
+/* 	.section{
+		margin-top:10%;
+		margin-left:200%;
+		margin-right:300%;
+		margin-bottom:10%;
+		
+	} */
+
+	.work a{
+		display:inline;
+		height:0%;
+		width:100%;
+		margin-top:20%;
+		margin-bottom:200%;
+		padding-left:20%;
+		padding-top:20%;
+		padding-bottom:20%;
+		padding-right:20%;
+		text-align:center;
+	}
+	.about p{
+		font-size:175%;
+	}
+	.footer p{
+		margin-top:90%;
+		font-size:300%;
+		margin-left:10%;
+		margin-right:10%;
+	}
+	.footer img{
+		height:10%;
+	}
+	}
+
+
+	
+}
