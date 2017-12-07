@@ -514,6 +514,39 @@
 	}
 	}
 
+@media screen and (max-width:375px){
+	a.sitename{
+		font-size:300%;
+	}
 
+	ul.menu-items{
+		font-size:50%;
+		margin-right:0%;
+		margin-left:20%;
+	}
+	.menu-items{
+		padding-left:40%;
+	}
+
+	.image{
+		height:50%;
+		width:75%;
+		margin-top:10%;
+	}
+
+	#intro p{
+		font-size:150%;
+		margin-top:50%;
+		padding-top:0%;
+	}
+
+	#intro a{
+		margin-left:10%;
+	}
+
+	.footer{
+		margin-top:90%;
+	}
+}
 	
 }
